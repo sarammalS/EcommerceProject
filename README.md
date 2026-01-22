@@ -1,122 +1,128 @@
-🛒 Online Shopping Platform (E-Commerce Website)
-📖 About the Project
+Below is a **GitHub-ready, clean, and professional README** specifically formatted for **GitHub presentation**.
+You can **copy-paste this directly into your `README.md` file on GitHub**.
 
-The Online Shopping Platform is a full-stack E-commerce web application built using Java, JSP, Servlets, JDBC, and MySQL.
-It provides a smooth shopping experience for users and an efficient management system for administrators, following the MVC architecture.
+---
 
-✨ Key Features
-👤 User Module
+# 🛒 Online Shopping Platform (E-Commerce Website)
 
-User registration and login
+## 📌 Project Overview
 
-Browse products with category filter and search
+The **Online Shopping Platform** is a full-stack E-commerce web application developed using **Java, JSP, Servlets, JDBC, and MySQL**.
+It enables users to shop online seamlessly while providing administrators with complete control over products, orders, and users.
+The application follows the **MVC architecture** and demonstrates core Java web development concepts.
 
-View detailed product information
+---
 
-Add products to cart or wishlist
+## 🚀 Features
 
-Manage cart (update quantity, remove items)
+### 👤 User Features
 
-Secure checkout with address and payment selection
+* User registration and secure login
+* Browse products with category filtering and search
+* View product details and stock availability
+* Add products to cart or wishlist
+* Manage cart (update quantity, remove items)
+* Checkout with address and payment selection *(demo only)*
+* View order history and order status
+* Update profile information
+* Email notifications:
 
-View order history and order status
+  * Registration confirmation
+  * Order confirmation and shipping updates
+  * OTP-based password reset
 
-Update profile information
+---
 
-Email notifications:
+### 🛠 Admin Features
 
-Registration confirmation
+* Admin authentication and management
+* Add, update, and delete product categories
+* Add, update, and delete products
+* View all customer orders
+* Update order status
+* Manage users and add additional admins
 
-Order confirmation & shipping updates
+---
 
-OTP-based password reset
+## ✉️ Email System
 
-🛠 Admin Module
+* Implemented using **Jakarta Mail API**
+* Automatic emails for:
 
-Admin login and role management
+  * User registration
+  * Order placement and shipment
+  * Password reset via OTP
 
-Add, update, and delete product categories
+---
 
-Add, update, and delete products
+## 💳 Payment Disclaimer
 
-View and manage customer orders
+> This project includes a payment page for **demonstration purposes only**.
+> No real payment gateway is integrated.
 
-Update order status
+---
 
-Manage users and add additional admins
+## 🧑‍💻 Tech Stack
 
-✉️ Email System
+### Frontend
 
-Automatic emails on registration and order events
+* HTML
+* CSS
+* JavaScript / jQuery
+* Bootstrap
 
-OTP-based password recovery system
+### Backend
 
-Implemented using Jakarta Mail API
+* Java 17
+* Servlets
+* JSP
+* JDBC
 
-💳 Payment Note
+### Database
 
-Payment functionality is implemented for demo purposes only.
-No real payment gateway is integrated.
+* MySQL 8.0
 
-🧑‍💻 Technologies Used
-Frontend
+### Tools & Software
 
-HTML
+* Eclipse EE
+* Apache Tomcat 10
+* MySQL Workbench
 
-CSS
+---
 
-JavaScript / jQuery
+## 📦 Dependencies
 
-Bootstrap
+* mysql-connector-j-8.0.31
+* angus-activation-2.0.1
+* jakarta.activation-api-2.1.2
+* jakarta.mail-2.0.1
 
-Backend
+---
 
-Java 17
+## 🏗 Architecture
 
-Servlets
+* MVC (Model–View–Controller)
+* Session-based authentication
+* JDBC with prepared statements
+* Role-based access (User / Admin)
 
-JSP
+---
 
-JDBC
+## 📌 Project Status
 
-Database
+* ✔ Core E-commerce functionality implemented
+* ✔ Admin panel operational
+* ✔ Email notifications integrated
+* ❌ Live payment gateway not integrated
 
-MySQL 8.0
+---
 
-Tools
+## 🎯 Use Case
 
-Eclipse EE
+* Java Full-Stack learning project
+* Fresher-level backend portfolio
+* Academic and demonstration purposes
 
-Apache Tomcat 10
+---
 
-MySQL Workbench
 
-📦 Dependencies
-
-mysql-connector-j-8.0.31
-
-angus-activation-2.0.1
-
-jakarta.activation-api-2.1.2
-
-jakarta.mail-2.0.1
-
-🏗 Architecture
-
-MVC (Model-View-Controller)
-
-Session-based authentication
-
-JDBC with prepared statements
-
-Role-based access (User / Admin)
-
-📌 Project Status
-
-✔ Core E-commerce features completed
-
-✔ Admin panel functional
-
-✔ Email services integrated
-
-❌ Live payment gateway not integrated
