@@ -1,7 +1,4 @@
-Below is a **GitHub-ready, clean, and professional README** specifically formatted for **GitHub presentation**.
-You can **copy-paste this directly into your `README.md` file on GitHub**.
 
----
 
 # 🛒 Online Shopping Platform (E-Commerce Website)
 
