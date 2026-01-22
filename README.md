@@ -1,69 +1,62 @@
-Online Shopping Platform (E-Commerce Website)
-📌 Overview
+🛒 Online Shopping Platform (E-Commerce Website)
+📖 About the Project
 
-The Online Shopping Platform is a full-stack E-commerce web application designed to deliver a smooth online shopping experience for users while providing powerful administrative controls. The application is built using Java, JSP, Servlets, JDBC, and MySQL, following standard web development practices and MVC architecture.
+The Online Shopping Platform is a full-stack E-commerce web application built using Java, JSP, Servlets, JDBC, and MySQL.
+It provides a smooth shopping experience for users and an efficient management system for administrators, following the MVC architecture.
 
-This project demonstrates core backend concepts such as session management, database integration, authentication, authorization, and CRUD operations.
+✨ Key Features
+👤 User Module
 
-🚀 Features
-👤 User Features
+User registration and login
 
-User registration and secure login
+Browse products with category filter and search
 
-Product browsing with category filtering and search
+View detailed product information
 
-Product details view with stock availability
+Add products to cart or wishlist
 
-Add products to cart or buy instantly
+Manage cart (update quantity, remove items)
 
-Wishlist functionality (add/remove products)
-
-Cart management (update quantity, remove items)
-
-Checkout process with address and payment selection
+Secure checkout with address and payment selection
 
 View order history and order status
 
-Update personal profile information
+Update profile information
 
 Email notifications:
 
 Registration confirmation
 
-Order confirmation
-
-Order shipment updates
+Order confirmation & shipping updates
 
 OTP-based password reset
 
-🛠️ Admin Features
+🛠 Admin Module
 
-Admin authentication and role management
+Admin login and role management
 
 Add, update, and delete product categories
 
 Add, update, and delete products
 
-View all user orders and update order status
+View and manage customer orders
 
-Manage users (remove fraudulent users)
+Update order status
 
-Add additional admins to share responsibilities
+Manage users and add additional admins
 
 ✉️ Email System
 
-The system includes an integrated mailing service that:
+Automatic emails on registration and order events
 
-Sends confirmation emails upon user registration
+OTP-based password recovery system
 
-Sends order and shipping confirmation emails
+Implemented using Jakarta Mail API
 
-Sends OTP emails for password recovery
+💳 Payment Note
 
-💳 Payment Disclaimer
-
-Note: The payment module is implemented for demonstration purposes only.
-No real payment gateway is integrated; demo orders can be placed using any card details.
+Payment functionality is implemented for demo purposes only.
+No real payment gateway is integrated.
 
 🧑‍💻 Technologies Used
 Frontend
@@ -82,15 +75,15 @@ Java 17
 
 Servlets
 
-JSP (JavaServer Pages)
+JSP
 
-JDBC (Java Database Connectivity)
+JDBC
 
 Database
 
 MySQL 8.0
 
-Tools & Software
+Tools
 
 Eclipse EE
 
@@ -98,7 +91,7 @@ Apache Tomcat 10
 
 MySQL Workbench
 
-📦 Dependencies (JAR Files)
+📦 Dependencies
 
 mysql-connector-j-8.0.31
 
@@ -108,9 +101,9 @@ jakarta.activation-api-2.1.2
 
 jakarta.mail-2.0.1
 
-🏗️ Architecture
+🏗 Architecture
 
-MVC (Model–View–Controller)
+MVC (Model-View-Controller)
 
 Session-based authentication
 
@@ -118,14 +111,12 @@ JDBC with prepared statements
 
 Role-based access (User / Admin)
 
-🎯 Learning Outcomes
+📌 Project Status
 
-Hands-on experience with Java web technologies
+✔ Core E-commerce features completed
 
-Understanding of Servlet–JSP lifecycle
+✔ Admin panel functional
 
-Secure database interaction using JDBC
+✔ Email services integrated
 
-Real-world E-commerce workflow implementation
-
-Email service integration in Java applications
+❌ Live payment gateway not integrated
