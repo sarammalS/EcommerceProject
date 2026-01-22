@@ -1,0 +1,68 @@
+# 🎯 ADMIN LOGIN - QUICK START (January 22, 2026)
+
+## ✨ IN 3 SIMPLE STEPS:
+
+### 1️⃣ Open Login Page
+```
+http://localhost:8080/ecommerce/adminlogin.jsp
+```
+
+### 2️⃣ Enter Credentials
+```
+Email:    test@gmail.com
+Password: abc123
+```
+
+### 3️⃣ Click Login
+```
+You'll be taken to Admin Dashboard ✅
+```
+
+---
+
+## 📋 ADMIN CREDENTIALS
+
+**Primary Admin:**
+- Email: `test@gmail.com`
+- Password: `abc123`
+
+**Secondary Admin:**
+- Email: `test34@gmail.com`  
+- Password: `abc`
+
+---
+
+## 🎮 WHAT YOU CAN DO AS ADMIN
+
+After logging in, you can:
+- 📦 Manage Products (Add, Edit, Delete)
+- 🏷️ Manage Categories
+- 📊 View Orders
+- 👥 Manage Users
+- 👨‍💼 Manage Admins
+- 📈 View Reports
+
+---
+
+## ⚙️ SERVER INFO
+
+**Server Status:** 🟢 RUNNING  
+**URL:** http://localhost:8080/ecommerce  
+**Port:** 8080  
+**Database:** MySQL (eazydeals)  
+
+---
+
+## 🚨 TROUBLESHOOTING
+
+| Problem | Solution |
+|---------|----------|
+| Wrong email/password | Use `test@gmail.com` / `abc123` exactly |
+| Cannot access page | Make sure server is running |
+| Database error | Check MySQL is running |
+| Session expired | Login again (30 min timeout) |
+
+---
+
+**Done! You can now login as admin! 🎉**
+

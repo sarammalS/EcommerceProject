@@ -1,0 +1,6 @@
+.custom-color {
+	/*background: linear-gradient(90deg, rgba(198,245,255,1) 0%, rgba(137,182,254,1) 28%, rgba(123,124,255,1) 58%, rgba(105,97,255,1) 87%, rgba(36,24,255,1) 100%);
+*/
+	background: linear-gradient(90deg, #2E7D32 0%, #4CAF50 50%, #81C784 100%);
+    color: white;
+}
